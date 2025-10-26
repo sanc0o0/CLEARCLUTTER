@@ -1,0 +1,71 @@
+{
+    "school": {
+      "name": "Greenfield Academy",
+      "address": "123 Maple Street, Springfield",
+      "established": 1998,
+      "type": "Public",
+      "grades": ["Kindergarten", "1", "2", "3", "4", "5"]
+    },
+    "students": [
+      {
+        "id": "S001",
+        "name": "Aarav Mehta",
+        "grade": "3",
+        "age": 8,
+        "enrolled": true
+      },
+      {
+        "id": "S002",
+        "name": "Sara Thomas",
+        "grade": "5",
+        "age": 10,
+        "enrolled": true
+      },
+      {
+        "id": "S003",
+        "name": "Rohan Gupta",
+        "grade": "2",
+        "age": 7,
+        "enrolled": false
+      }
+    ],
+    "teachers": [
+      {
+        "id": "T001",
+        "name": "Mrs. Kavita Sharma",
+        "subject": "Mathematics",
+        "grade": "4",
+        "full_time": true
+      },
+      {
+        "id": "T002",
+        "name": "Mr. Daniel Roy",
+        "subject": "Science",
+        "grade": "5",
+        "full_time": false
+      }
+    ],
+    "classes": [
+      {
+        "class_id": "C101",
+        "grade": "1",
+        "room": "A1",
+        "teacher_id": "T001",
+        "schedule": {
+          "days": ["Monday", "Wednesday", "Friday"],
+          "time": "09:00 - 10:30"
+        }
+      },
+      {
+        "class_id": "C202",
+        "grade": "5",
+        "room": "B2",
+        "teacher_id": "T002",
+        "schedule": {
+          "days": ["Tuesday", "Thursday"],
+          "time": "11:00 - 12:30"
+        }
+      }
+    ]
+  }
+  
